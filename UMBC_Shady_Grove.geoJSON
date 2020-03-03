@@ -2,23 +2,12 @@
   "type": "Feature",
   "geometry": {
       "type": "Point",
-      "coordinates": [-77.201416, 39.094264] // lon, lat
+      "coordinates": [-77.201416, 39.094264]
   },
   "properties": {
       "name": "UMBC Shady Grove Campus",
-      "description": "A description",
-      "marker-size": "medium", //small, medium, large
-
-            // Allowed values include
-            // - Icon ID
-            // - An integer 0 through 9
-            // - A lowercase character "a" through "z"
-       "marker-symbol": "bus",
-
-            // OPTIONAL: default "7e7e7e"
-            // the marker's color
-            //
-            // value must follow COLOR RULES
-       "marker-color": "#fff"
+      "marker-size": "large", 
+      "marker-symbol": "college",
+      "marker-color": "#00f"
    }
 }
